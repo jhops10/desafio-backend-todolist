@@ -29,4 +29,12 @@ public class TodoService {
                 Sort.by("nome").ascending());
         return todoRepository.findAll();
     }
+
+
+    public List<Todo> update(Todo todo) {
+        todoRepository.save(todo);
+        return list();
+    }
+
+
 }
