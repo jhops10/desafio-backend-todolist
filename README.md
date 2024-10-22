@@ -6,6 +6,7 @@ Usuários podem criar, atualizar, listar, e excluir tarefas. Cada tarefa pode te
 
 
 ## Tecnologias Utilizadas
+* Java
  * Spring Boot
  * Spring Data JPA
  * mySQL
